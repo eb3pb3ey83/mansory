@@ -1,0 +1,57 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+body {
+  background: #ddd;
+}
+
+.masonry-list-container {
+  overflow-y: scroll;
+}
+
+.masonry-list {
+  position: relative;
+  width: 900px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.masonry-item {
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  box-sizing: border-box;
+}
+
+.item {
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+
+.title {
+  padding-top: 10px;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.select-container {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top:0;
+  padding: 10px;
+  z-index: 1;
+}
